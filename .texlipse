@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Tue Jan 08 15:02:44 CET 2019
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=habilitation_proposal.tex
+outputFile=habilitation_proposal.pdf
+langSpell=en
+markDer=true
+srcDir=

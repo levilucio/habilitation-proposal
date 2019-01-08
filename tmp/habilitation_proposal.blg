@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: habilitation_proposal.aux
+The style file: plain.bst
+Database file #1: group_proposal.bib
+A bad cross reference---entry "Tolvanen016"
+refers to entry "DBLP:conf/modelsward/2016", which doesn't exist
+A bad cross reference---entry "VolterB04"
+refers to entry "DBLP:conf/europlop/2004", which doesn't exist
+A bad cross reference---entry "Wile03"
+refers to entry "DBLP:conf/hicss/2003", which doesn't exist
+Warning--I didn't find a database entry for "fig:DSL_design_phases"
+Warning--I didn't find a database entry for "DBLP:conf/modelsward/2016"
+Warning--I didn't find a database entry for "DBLP:conf/europlop/2004"
+Warning--I didn't find a database entry for "DBLP:conf/hicss/2003"
+Warning--to sort, need author or key in gme
+Warning--to sort, need author or key in atom3
+Warning--empty booktitle in Kolovos06
+Warning--empty booktitle in KellyTolvanen09
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            703 strings with 9219 characters,
+and the built_in function-call counts, 9656 in all, are:
+= -- 951
+> -- 388
+< -- 8
++ -- 155
+- -- 122
+* -- 560
+:= -- 1533
+add.period$ -- 95
+call.type$ -- 31
+change.case$ -- 148
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 399
+empty$ -- 849
+format.name$ -- 122
+if$ -- 2111
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 23
+newline$ -- 155
+num.names$ -- 62
+pop$ -- 206
+preamble$ -- 1
+purify$ -- 119
+quote$ -- 0
+skip$ -- 329
+stack$ -- 0
+substring$ -- 536
+swap$ -- 105
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 4
+while$ -- 94
+width$ -- 33
+write$ -- 323
+(There were 3 error messages)

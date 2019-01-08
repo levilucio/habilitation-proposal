@@ -1,0 +1,554 @@
+% %This is a very basic article template.
+% %There is just one section and two subsections.
+\documentclass{article}
+
+\usepackage[ colorlinks=true, urlcolor=blue, linkcolor=green ]{hyperref}
+\usepackage[title]{appendix}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Group Proposal}
+
+\author{Dr. Levi L\'ucio}
+
+\maketitle
+
+\abstract{We propose the creation of new nachwuchs-Kompetezfeld at fortiss in
+the area of Domain Specific Languages (DSLs).}
+
+\section{Name}
+
+Intelligent Domain-Specific Systems (IDS2)
+
+\section{Mission}
+
+\textbf{Increasingly build better DSLs to tackle industrial problems by:
+1) applying them to implement and support technology transfer projects at
+fortiss, and 2) evaluating their practical impact.}
+
+\section{Need}
+
+Computer languages are pervasive in software and systems engineering, to the
+point that software engineers become unaware that the choice of the language set
+to use plays a major role in projects' success. 
+
+The IDS2 group aims at making DSLs a primary theme of concern at fortiss. Many
+projects implemented at fortiss have a strong language development component. As
+as such the group will be flexible in the range of projects it will acquire and
+develop. The cross-section between IDS2 and other groups at fortiss is wide:
+learning to design better languages will empower ourselves and other scientists
+at fortiss to better transfer their results into industry. Additionally, DSLs
+are a powerful tool to add robustness to fortiss' contributions in software
+engineering.
+
+Better technology transfer implies economical benefits for our industrial
+partners and ultimately more business for fortiss itself.
+
+\section{Context}
+
+The history of software engineering is one of inventing increasing levels of
+abstraction as a means to cope with the increasing complexity of software
+systems. High level languages such as C, Pascal or FORTRAN introduced
+programmers to structured code, C++, Java or C\# added the notion of
+\emph{object} as a means to encapsulate code. UML, together with design
+patterns, gave software developers principles of architecture and design.
+
+Software modelling is a broad term that proposes many different approaches to the different stages
+of software development (requirements, design, coding and
+verification/validation), making use of formal, semi-formal and informal
+languages. Based on the principles of software modelling, several tools such as
+Enterprise Architect or MATLAB Simulink have had significant impact in the
+industry.
+
+One of the currently most promising approaches to again raise the level of
+abstraction at which software is built are Domain-Specific Languages (DSLs).
+DSLs propose encapsulating the entities of the domain on which computations are
+to be performed through languages that encapsulate and manipulate the concepts
+of that same domain. Here, the Turing machine stops being the absolute reference
+-- rather, it becomes important to adjust the computational power and the
+expressiveness of the language to the task at hand. DSLs thus concentrate on
+providing adequate abstractions to describe computations for specific domains. They abstract from the machine-
+architecture- and mathematical-oriented properties of Turing-machine inspired
+languages and favor abstractions closer to the human understanding of the domain
+of interest.
+
+Industry is constantly on the lookout for automation that can provide an edge
+regarding their competitors. This is particularly true in Bavaria, where large
+automotive, aerospace and software companies exist and compete in a globalised
+market.
+
+While it is expected and understood that new techniques and tools will provide
+such competitive edge, even large companies with dedicated research departments
+cannot perform their own research in-house due to time or expertise constraints.
+
+The IDS2 group will work hand-in-hand with industry to provide solutions to
+software development problems that may be solved using domain-specific
+languages. This is a proven business model: for example itemis AG or PROTOS GmbH
+are currently using it with success. Both companies are expert in
+their own modelling frameworks (MPS and eTrice respectively) and provide domain-specific
+solutions based on those tools. Their areas of expertise of their clients range
+from automotive, to aerospace, health, heavy machinery or manufacturers of power
+tools.
+
+Given fortiss' technology transfer mission, IDS2 does not intend to specialize
+in one specific technological platform but rather to build expertise around the
+the construction and evaluation of Domain-Specific Languages. In particular, we
+intend on leveraging and experimenting with machine learning as well as with
+practical formal methods in order to consistently provide innovative and
+cutting-edge solutions.
+
+When implementing projects with the industry we will follow a formula that has
+proven successful in the past: for each project we intend on building a
+prototype focused on solving one specific problem, delivering the solution in a
+fashion such that the advantages of the research idea are clearly transmitted to
+the industry. In practice, this means that our focus will not be on building an
+encompassing framework where all solutions may be plugged in, but rather to
+impress our clients with clean and clear-cut solutions to well-specified
+problems. Technology will be used opportunistically and towards specific goals.
+
+We strongly believe that such an approach will be impactful, as it is well
+understood that the industry does not use prototypes built by fortiss directly
+-- they rather re-implement the research idea for their proprietary toolchains when
+the research is deemed to be useful. Equally important, such an approach will
+allow us to build a range of impressive prototypes that will not only serve as a
+presentation portfolio for the group, but will also allow us to attract more
+business for fortiss.
+
+\section{Motivation}
+
+During the past decade a number of DSL workbenches saw the light of day. The
+Eclipse Modelling Framework (EMF) had significant impact in the academia and
+became one of the most popular frameworks for DSL construction. More recently,
+the MPS workbench from Jetbrains has delivered a powerful DSL construction
+workbench with professional support and possibilities to design attractive GUIs
+that provide a very interesting complement to the notion of domain specificity.
+Professional DSL workbenches such as MetaEdit+ have repeatedly made strong cases
+for the industrial adoption of DSLs and have gathered a niche market in the
+domain.
+
+During the past few years, DSLs have attracted considerable interest from the
+industry. The paradigm speaks directly to engineers who wish to build their
+systems ground-up and making as much use as possible of domain knowledge that is
+typically hard-earned. In this context, clients often regard DSLs as key-in-hand
+solutions. They encompass simplified means to express domain-specific
+computations while abstracting from accidental complexity linked to the software or the hardware
+running underneath.
+
+Companies such as itemis, PROTOS or MetaCase have successfully developed
+business models around DSLs. They leverage their knowledge of modelling and DSL workbenches to
+deliver to customers key-in-hand software solutions. Such solutions have been
+developed for disparate domains such as the automotive, avionics, power tools,
+health, biology, among many others, and help either software developers or final
+users in achieving their tasks.
+
+Despite these successes, the potential and real impact of DSLs in industry is
+still ill understood. A recent compelling report from Tolvanen and
+Kelly~\cite{Tolvanen016} states that while their company specialized in
+DSLs, MetaCase, can affirm with certainty that the gains in productivity of
+their clients range from 500\% to 1000\%. In the same article, they claim
+academic research in the domain thus not been able to validate this in general.
+They speculate this is due on the one hand to the quality of their tool
+MetaEdit+ and their industrial experience, and on the other hand to the poor
+quality of the academic tools for supporting DSL construction.
+
+Anecdotally, at the PAINS workshop at MODELS 2018, an interesting discussion
+raged between a high-profile DSL proponent and a top-level BMW manager. While
+the DSL proponent insisted that the (MPS-based) technology was ready and could
+serve as a ``silver bullet'' of sorts, the BMW manager replied that the attempts of using
+DSLs at his company where ``hit-and-miss'' and that even when DSLs did prove
+successful, it was not understood why. A question from that same manager that
+was particularly thought-provoking was: ``how do I build and abstraction and
+know that it is a good one?''. A more general criticism to the DSL approach in
+general was: ``quality standards are missing, how do I to judge or trust your
+processes of building DSLs while making decisions that will benefit my company?''.
+
+IDS2 will be in a privileged position to find answers to the questions
+above. The proposed main members of the group have considerable experience with
+DSL workbenches, modelling and verification, both through their studies and their
+professional accomplishments. Additionally, we rely on a national and
+international academic and industrial network that is stable and currently
+growing.
+
+By developing DSLs for the industry as the main business model, we have and will
+be exposed to the difficulties in the conception of DSLs, in their adoption and
+evaluation in practice.\\
+
+\textbf{Our main goal is to build a conceptual and systematic framework to build
+DSLs and the right level of abstraction for the task at hand, as well as
+evaluating their impact in the productivity of the industry and
+discovering best practices.}\\
+
+RQ1: What is the quality of an abstraction in a DSL?\\ 
+RQ2: How do formal methods and machine learning help out?
+
+Our mid-to-longterm goal is to inseminate the community with the practical
+experiences and struggles of applying DSLs in practice, leading to the
+theoretical establishment of the domain. fortiss is a very privileged context to
+do this, as we have the kind of access to projects and partners that occurs very
+seldom in academia.
+ 
+\section{State of the Art}
+
+DSLs have a rich history of contributions in many areas. Notable examples of
+DSLs that left permanent marks in their domains are \emph{lex} and
+\emph{yacc}~\cite{Johnson80} for compiler construction, HTML~\cite{BernersLee96}
+for the world-wide web or VHDL~\cite{Ashenden02} for hardware specification.
+
+In 2000, a landmark white paper from the company MetaCase
+claimed that, using their commercial tool MetaEdit+, they developed DSLs that 
+increased the productivity of the company 10-fold~\cite{metacase00}. Such claims
+spawned a large amount of interest both in the industry and academia for DSLs.
+
+Following such interest, authors such as Spinellis or V\"olter pursued the idea
+of proposing patterns for DSLs construction~\cite{Spinellis01,VolterB04}, much
+in the light of what had been very successfully done by the ``gang of four'' for
+design patterns~\cite{Gamma:95}. Such research culminated in the very well-cited
+work of Mernik, Heering and Sloane in 2005~\cite{MernikHS05} which builds on
+the work of Spinellis and aims at providing the DSL developer with the
+understanding of where and when design decisions matter in DSL development.
+Also, reports on industrial best practices such as the work from
+Wile~\cite{Wile03} started to emerge at this time.
+
+The raise in interest also brought upon a number of DSL workbenches both
+open-source and commercial such as the Eclipse Modelling Framework
+(EMF) for Eclipse~\cite{emf} or Microsoft's DSL tools~\cite{microsoftDSLTools},
+GME~\cite{gme} or AToM3~\cite{atom3}. In particular, EMF was heavily adopted by
+academia for pursuing research on DSLs and together with GMF~\cite{gmf} soon
+became the platform of choice for academic DSL development.
+ 
+While the enthusiasm around DSLs continued strong throughout the 00s and work on
+how to develop good languages kept on being published~\cite{Voelter09}, other
+authors began to question the state of practice in general. In particular Kelly
+from MetaCase raises in~\cite{Kelly2009} the point that DSL development often
+takes a standpoint of self sufficiency, ignoring pitfalls that mostly have to do
+with taking the domain for which the language is developed or its users too
+lightly. This was in the same year corroborated by work from Gabriel \emph{et
+al.}~\cite{Gabriel09} who reviewed a significant amount of literature related to
+the evaluation of DSLs. The authors claim that, while the benefits of DSLs in
+terms of increased productivity in well-defined domains were often put forward
+in the literature, little to no evidence to back up such claims was offered.
+
+Having recognized the fact that DSLs were critically missing supporting
+evaluation that would back up the promises from the early days, authors such as
+Kolovos and Paige~\cite{Kolovos06} proposed sets of characteristics that
+``good'' DSLs should exhibit. Examples of such generic characteristics are
+conformity to the domain of choice, supportability by tools, integrability with
+other languages, longevity, simplicity, quality, scalability or usability.
+Several studies from the late 00's and beginning of the 10's~\cite{Kolovos06}
+have concentrated on proposing means to quantitatively assess such
+and other
+characteristics~\cite{KellyTolvanen09,Hermans09,Barisic:12,Kahraman2015}. A
+notable study dating from this period from Kosar \emph{et al.}~\cite{Kosar2012}
+provides empirical evidence that programs written using DSLs are more easily
+comprehensible by programmers than programs written using GPLs, one of the
+original claims of the DSL community.
+
+During this same period several contemporary DSL workbenches made their first
+appearance: the Meta Programming System (MPS)\footnote{Note that while the MPS
+project exists since 2003, its mainstream appearance dates to a decade later.}
+from JetBrains~\cite{mps}, Sirius used by Obeo as a core
+technology~\cite{sirius}, Xtext from itemis AG~\cite{xtext}, among
+others~\cite{Kelly:2013}. Benefiting from the previous decade of development
+and professional software development teams, these tools exhibit a level of
+maturity that allows them to be used in industrial settings with success. For instance Sirius has been used to develop
+DSLs for the aerospace, transportation or energy industries~\cite{obeo}.
+MPS~\cite{mps} has been used to develop commercial tools for branches such as
+software development, health, financial companies or automotive, among others.
+Xtext~\cite{xtext} is also used by large players such as Google, SAP or Bosch.
+
+While the above seems to indicate that DSLs have successfully permeated the
+industry, authors from recent surveys remain very critical of the actual state
+of the art. Mernik~\cite{Mernik17} published a systematic mapping study in
+2017 where he shows that the \emph{maintenance} and \emph{validation} phases of
+DSL development are grossly under-studied in the literature when compared to the
+\emph{domain analysis}, \emph{design} and \emph{implementation} phases (see
+figure~\cite{fig:DSL_design_phases}).
+
+\begin{figure}[!h]
+\centering 
+\includegraphics[width=1\textwidth]{./figures/DSL_design_phases}
+\caption{Distribution of 810 scientific contributions by phases of DSL
+construction}
+\label{fig:DSL_design_phases}
+\end{figure}
+
+Equally, Tolvanen and Kelly who have been active DSL community since the late
+90's have recently published a summary of their experiences with their
+commencial tool MetaEdit+~\cite{TolvanenKelly2016}. There, they state that
+although they can consistently claim a 5 to 10 times improvement in productivity
+for their customers, the DSL community has not been able to do the same in
+general. Note that this does not contradict the paragraph above on adoption by
+the industry, as: 1) adoption does not mean increased productivity, and 2) it is
+to be expected that if productivity increases do exist, corporate secrecy would
+be used to avoid losing competitive advantages. Tolvanen and Kelly do mention
+in~\cite{TolvanenKelly2016} that the reason why the academic community has
+failed so far to prove or disprove most of the fundamental claims for advantages
+of DSLs is the poor quality of the overall tooling as well as DSLs used and
+developed by academic research. This notion is shared by us.
+
+\begin{itemize}
+  \item frameworks for experimenting with DSLs
+\end{itemize}
+
+\section{Proposed Group Members}
+
+\begin{itemize}
+  \item Dr. Levi L\'ucio (group lead)
+  \item Dr. Saad Bin Abid (topic leader for process modelling and machine
+  learning)
+  \item Sudeep Kanav (topic leader for formal methods in practice)
+  \item Ananya Misra (HiWi)
+  \item Vishal Mahajan (HiWi)
+\end{itemize}
+
+Dr. Saad Bin Abid and Sudeep Kanav have expressed keen interest on becoming part
+of the IDS2 group. They are nonetheless members of MbSE and are
+expected to work part-time for IDS2 where synergies exist. Depending on acquired
+funds in 2019 and personal and group interests the percentage of time they work
+for each group might be subjected to adjustments.
+
+\section{Synergies with other groups at fortiss}
+
+Domain-Specific Languages are a cross-cutting theme at fortiss. All
+competence fields at fortiss deal with DSLs in one form or the
+other, even or despite doing it unknowingly.
+
+\begin{itemize}
+\item The obvious synergy of IDS2 is with the MbSE group: MbSE has a
+model-centric view on systems and software engineering and builds languages using model-driven
+techniques. Its main current theme is design-space exploration and the modelling
+of  embedded systems, but other themes such as requirements engineering, formal
+methods or security are also being pursued. ID2S can be of great assistance to
+MbSE by bringing systematic notions of language construction and evaluation to
+the development table. A collaboration that is already ongoing is the
+exploration of machine learning (in the context of the MAGNET project) to deliver support to users of AF3.
+\item Common work is also ongoing with the AS group, in the form of the
+FaktorBUILD project proposal. Some of the work of AS relies on probabilistic
+programming to model situations where incomplete knowledge must be reliably used
+to make decisions in real-time. Here, IDS2 may help in constructing DSLs at an
+adequate level of abstraction such that the IDE provided to users of factor
+graphs can leverage good abstractions, static analyses and formal methods to
+increase the productivity of factor graph programmers.
+\item The collaboration with the i4 group has been so far very successful,
+having lead to the implementation (together with Vincent Aravantinos) of a tool
+providing DSLs to express industrial capabilities. Such capabilities, or
+skills, can be subsequently be matched to automatically automatically synthesize
+controllers for industrial machines. Upcoming work for 2019 in the area will aim
+at connecting the completed DSL-based tool to AutomationML and 4Diac in order
+to connect the work with outside formats while providing simulation capabilities. 
+\end{itemize}
+
+\pagebreak
+ 
+\begin{appendices}
+\section{Context}
+
+The proposal for the formation of this group stems from three years of work at
+fortiss developing DSLs in the context of several projects. The three main
+members of the foreseen group (Dr. Levi L\'ucio, Dr.
+Saad Bin abid and Sudeep Kanaav) all have extensive experience working together
+both for the IETS3 the CBMD and the MAGNET projects.
+
+\subsection{Completed Projects}
+
+\begin{itemize}
+  \item IETS3
+  \begin{itemize}
+    \item Consortium: fortiss, itemis, ZF, Diehl aerospace
+    \item Running time, funding and personnel: 2 years / ~300K Euro / 3 people
+  \end{itemize}
+\end{itemize}
+
+\subsection{Running Projects}
+\label{section:running_projects}
+
+\begin{itemize}
+  \item CBMD (as project leader)
+  \begin{itemize}
+    \item Consortium: fortiss, PROTOS, SQMi, University of Augsburg
+    \item Running time, funding and personnel: 2 years / ~190K Euro / 2 people
+  \end{itemize} 
+  \item MAGIC (as project leader)
+  \begin{itemize}
+    \item Consortium: fortiss, University of Montréal
+    \item Running time and funding: 2 years / ~10K Euro + ~40K Euro
+    (Eigenforshungsgeld) / 3 people
+  \end{itemize} 
+  \item MAGNET (as project leader)
+  \begin{itemize}
+    \item Consortium: fortiss
+    \item Running time, funding and personnel: 6 months / ~70K Euro / 8 people
+    Eigenforshungsgeld
+  \end{itemize}
+  \item ARTEMIS (as project leader)
+  \begin{itemize}
+    \item Consortium: fortiss, Airbus
+    \item Running time, funding and personnel: 6 months / 75KEuro / 2 people
+    (Levi + HiWi)
+  \end{itemize} 
+  \item BaSys4.0 (as software developer for the ``industrial skills'' theme )
+\end{itemize}
+
+\subsection{Projects in the Acquisition Pipeline}
+\label{section:projects_in_pipepline}
+
+\begin{itemize}
+  \item FaktorBUILD
+    \begin{itemize}
+    \item Consortium: fortiss, University of L\"ubeck, Siemens, LMU, ?
+    \item Running time, funding and personnel: 3 years / ~400K Euro / 3 people
+    (Levi + Dhiraj + HiWi)
+  \end{itemize} 
+  \item Follow-up for CBMD
+    \begin{itemize}
+    \item Consortium: fortiss, PROTOS, ?
+  \end{itemize} 
+  \item Follow-up for ARTEMIS
+    \begin{itemize}
+    \item Consortium: fortiss, Airbus
+  \end{itemize} 
+  \item H2020, project on ``agility in model-based software engineering''
+    \begin{itemize}
+    \item Consortium: fortiss, University of Antwerp, University Nova de Lisboa,
+    TU Wien, Hasso-Platner Institut, Telecom-Paristech, Unit Bilisim
+    Technologies
+  \end{itemize} 
+\end{itemize}
+
+\section{Network}
+
+Here I will describe the main currently active research and industrial
+connections (others exist that may be reactivated at need):\\\\
+\textbf{Inside fortiss:}
+
+\begin{itemize}
+  \item HCE (Yuanting Liu and team, project MAGNET)
+  \item SD (Tahira Iqbal and Parisa Elahidoost, project MAGNET and requirements
+  engineering)
+  \item i4 (project MAGIC, networking with University of Montréal)
+  \item AS (Dhiraj Gulati and Vincent Aravantinos, on BaSys and FactorBUILD)\\
+\end{itemize}
+\textbf{Academic}:
+
+\begin{itemize}
+  \item University of Montr\'eal, Canada (project MAGIC)
+  \item University of Namur, Belgium (tutorial and paper on machine learning and
+  formal verification)
+  \item University of Antwerp, Belgium (proposal for H2020)
+  \item LMU, Germany (with Prof. Dirk Beyer in the context of the FaktorBUILD
+  proposal)
+  \item University of L\"ubeck, Germany (with Prof. Philipp Rostalski in the
+  context of the FactorGraph proposal)
+  \item TU Wien (with Manuel Wimmer in the context of model transformations)\\
+\end{itemize}
+\textbf{Industrial:}
+
+\begin{itemize}
+  \item PROTOS (KMU) (in the context of the CBMD project)
+  \item Rolls-Royce (in the context of the EARS-related work)
+  \item Siemens (in the context of the FaktorBUILD proposal)
+  \item Festo (in the context of the BaSys project)
+  \item ABB (in the context of the BaSys project)
+\end{itemize}
+
+\section{Plan for the first year of activity}
+
+In the first year of activity we intend on solidifying the group by building on
+existing results and enlarging the scope of our national and international
+network, both at the academic and industrial levels. In particular, we aim at
+achieving the following goals:
+
+\subsection{Research:}
+
+\begin{itemize}
+  \item Establish a set of criteria for the quality of DSLs in practice. In
+  particular, we are interested in understanding which measurable criteria can
+  be used to facilitate the adoption of DSLs in the industry.
+  \item Evaluate the usage of machine learning in the context of requirements
+  engineering and in general as a means to aid in the construction and operation
+  of good and reliable DSLs.
+  \item Establish an ongoing collaboration with Prof. Dirk Beyer from the LMU in
+  Munich. Prof. Beyer is an expert in formal methods and is part of the
+  consortium for the FaktorBUILD project. He is, in particular, very
+  enthusiastic about applying his CPAchecker C model checker to examples coming
+  from Airbus Defense in the context of the ARTEMIS project. Publishing with
+  Prof. Beyer will also be pursued.
+  \item Evaluate the prototype developed for the MAGNET project in the
+  real-world scenario of tutorials of AF3. Calibrate the suggestions provided by
+  the machine learning algorithm in function of such an evaluation.
+  \item Write one or more articles on the results of the MAGNET project.
+  \item Evaluate the usage of machine learning in the context of requirements
+  engineering and in general as a means to aid in the construction and operation
+  of good and reliable DSLs.
+\item Establish a set of criteria for the quality of DSLs in practice. In
+particular, I am interested in understanding which measurable criteria can be used to
+facilitate the adoption of DSLs in the industry.
+  \item Write one or more articles on the results of the skills (F\"ahigkeiten)
+  work-package of the BaSys project.
+ \item Continue research on the topic of Process-Aware model driven development
+environments to be implemented in AF3. Complete the ongoing journal paper on
+process-aware model-driven development environments.
+ \item Help Sudeep Kanav in establishing his PhD research topic by publishing
+ results on compositional model checking at top venues. Continue Sudeep's
+ scientific training.
+ \item Provide Tatiana Chuprina with the right tools such that she can finish
+ her thesis proposal in the area of requirements engineering.
+\end{itemize}
+
+\subsection{Project acquisition:}
+
+\begin{itemize}
+  \item Build on our existing collaboration with Airbus defense by delivering
+  excellent results for the ARTEMIS project and acquiring a second project in
+  the context of model checking C code based on EARS requirements.
+  \item Acquire one or more national and/or international projects. This work
+  will be based on current acquisition efforts for a BMBF and an H2020 projects
+  (as described in section~\ref{section:projects_in_pipepline}).
+  \item Acquire a project on the continuation fn CBMD on the compositional
+  verification of models of embedded software. This is well underway and desired
+  by PROTOS GmbH (as described in sections~\ref{section:running_projects}
+  and~\ref{section:projects_in_pipepline}).
+  \item Acquire a project with an industrial partner (PROTOS is a promising
+  option) on applying the results of MAGNET Eigenforshungs project in practice.
+  \item Work in the direction of establishing a funded consortium with
+  Professors Eugene Syriani and Michalis Famelis from the University of
+  Montr\'eal. A collaboration with those researchers is already in place in the
+  context of the MAGIC project (as described in~\ref{section:running_projects}) with the goal of acquiring a
+  large Canadian-Germany partnership
+  project\footnote{\url{http://www.nserc-crsng.gc.ca/International-Internationale/CanadaGermany_call-Appel_CanadaAllemagne_fra.asp}}.
+\end{itemize}
+
+\subsection{Technical:}
+
+\begin{itemize}
+  \item Build a prototype tool in MPS to generate LTL from EARS requirements and
+  model-check C code written for those requirements. 
+  \item Build a release-ready prototype of a recommender system for AutoFOCUS3
+  that can be effectively used in tutorials on the tool given to industry or
+  academia.
+  \item Complete the development of the skill-matching and controller
+  synthesis prototype for BaSys. The prototype will semi-automatically generate
+  a controller for a robotic arm in 4Diac. A demonstrator of the complete chain
+  from skill definition down to robot arm movement will be built based on
+  virtual robotic arm simulator provided by Festo AG. 
+  \item Integrate compositional model checking in the eTrice tool, such that it
+  can be used in production by PROTOS.
+\end{itemize}
+
+\subsection{Organisation:}
+
+\begin{itemize}
+  \item Contribute to and aid in the delivery of tutorials for AF3.
+  \item Contribute to the organization of MODELS 2019 in Munich.
+  \item Conduct interviews leading to the the hiring of post-docs, PhD students,
+  Msc students or HiWis.
+\end{itemize}
+
+\end{appendices}
+
+\bibliographystyle{plain}
+\bibliography{group_proposal}
+
+\end{document}
+ 

@@ -1,0 +1,176 @@
+\begin{thebibliography}{10}
+
+\bibitem{atom3}
+{AToM3: A Tool for Multi-Formalism and Meta-Modelling}.
+\newblock http://atom3.cs.mcgill.ca/.
+
+\bibitem{gme}
+{GME: Generic Modeling Environment}.
+\newblock http://w3.isis.vanderbilt.edu/projects/gme/.
+
+\bibitem{Ashenden02}
+Peter~J. Ashenden.
+\newblock {\em The designer's guide to VHDL, 2nd Edition}.
+\newblock The Morgan Kaufmann series in systems on silicon. Kaufmann, 2002.
+
+\bibitem{Barisic:12}
+Ankica Bari\v{s}i\'{c}, Pedro Monteiro, Vasco Amaral, Miguel Goul\~{a}o, and
+  Miguel Monteiro.
+\newblock Patterns for evaluating usability of domain-specific languages.
+\newblock In {\em Proceedings of the 19th Conference on Pattern Languages of
+  Programs}, PLoP '12, pages 14:1--14:34, USA, 2012. The Hillside Group.
+
+\bibitem{BernersLee96}
+Tim Berners{-}Lee, Roy~T. Fielding, and Henrik~Frystyk Nielsen.
+\newblock Hypertext transfer protocol - {HTTP/1.0}.
+\newblock {\em {RFC}}, 1945:1--60, 1996.
+
+\bibitem{emf}
+Eclipse Foundation.
+\newblock {Eclipse Modeling Framework}.
+\newblock https://www.eclipse.org/modeling/emf/.
+
+\bibitem{gmf}
+Eclipse Foundation.
+\newblock {GMF: Graphic Modeling Framework}.
+\newblock https://www.eclipse.org/modeling/gmp/.
+
+\bibitem{Gabriel09}
+Pedro Gabriel, Miguel Goul{\~{a}}o, and Vasco Amaral.
+\newblock Do software languages engineers evaluate their languages?
+\newblock {\em CoRR}, abs/1109.6794, 2011.
+
+\bibitem{Gamma:95}
+Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+\newblock {\em Design Patterns: Elements of Reusable Object-oriented Software}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1995.
+
+\bibitem{Hermans09}
+Felienne Hermans, Martin Pinzger, and Arie van Deursen.
+\newblock Domain-specific languages in practice: A user study on the success
+  factors.
+\newblock In Andy Sch{\"u}rr and Bran Selic, editors, {\em Model Driven
+  Engineering Languages and Systems}, pages 423--437, Berlin, Heidelberg, 2009.
+  Springer Berlin Heidelberg.
+
+\bibitem{xtext}
+itemis AG and TypeFox.
+\newblock {Sirius}.
+\newblock https://www.eclipse.org/Xtext/.
+
+\bibitem{mps}
+JetBrains.
+\newblock {Meta Programming System}.
+\newblock https://www.jetbrains.com/mps/.
+
+\bibitem{Johnson80}
+Stephen~C. Johnson.
+\newblock Language development tools on the unix system.
+\newblock {\em {IEEE} Computer}, 13(8):16--21, 1980.
+
+\bibitem{Kahraman2015}
+G{\"o}khan Kahraman and Semih Bilgen.
+\newblock A framework for qualitative assessment of domain-specific languages.
+\newblock {\em Software {\&} Systems Modeling}, 14(4):1505--1526, Oct 2015.
+
+\bibitem{Kelly2009}
+S.~Kelly and R.~Pohjonen.
+\newblock Worst practices for domain-specific modeling.
+\newblock {\em IEEE Software}, 26(4):22--29, July 2009.
+
+\bibitem{Kelly:2013}
+Steven Kelly.
+\newblock Empirical comparison of language workbenches.
+\newblock In {\em Proceedings of the 2013 ACM Workshop on Domain-specific
+  Modeling}, DSM '13, pages 33--38, New York, NY, USA, 2013. ACM.
+
+\bibitem{Kolovos06}
+Dimitrios~S. Kolovos, Richard~F. Paige, Tim Kelly, and Fiona A.~C. Polack.
+\newblock Requirements for domain-specific languages.
+\newblock 2006.
+
+\bibitem{Kosar2012}
+Toma{\v{z}} Kosar, Marjan Mernik, and Jeffrey~C. Carver.
+\newblock Program comprehension of domain-specific and general-purpose
+  languages: comparison using a family of experiments.
+\newblock {\em Empirical Software Engineering}, 17(3):276--304, Jun 2012.
+
+\bibitem{Mernik17}
+Marjan Mernik.
+\newblock Domain-specific languages: A systematic mapping study.
+\newblock In Bernhard Steffen, Christel Baier, Mark van~den Brand, Johann Eder,
+  Mike Hinchey, and Tiziana Margaria, editors, {\em SOFSEM 2017: Theory and
+  Practice of Computer Science}, pages 464--472, Cham, 2017. Springer
+  International Publishing.
+
+\bibitem{MernikHS05}
+Marjan Mernik, Jan Heering, and Anthony~M. Sloane.
+\newblock When and how to develop domain-specific languages.
+\newblock {\em {ACM} Comput. Surv.}, 37(4):316--344, 2005.
+
+\bibitem{metacase00}
+MetaCase.
+\newblock {MetaEdit+ revolutionized the way Nokia develops mobile phone
+  software}.
+
+\bibitem{microsoftDSLTools}
+Microsoft.
+\newblock {Microsoft DSL Tools}.
+\newblock https://tinyurl.com/yb934lvz.
+
+\bibitem{obeo}
+Obeo.
+\newblock {Obeo -- Sirius webpage}.
+\newblock https://www.obeodesigner.com/en/product/sirius.
+
+\bibitem{sirius}
+Obeo.
+\newblock {Sirius}.
+\newblock https://www.obeo.fr/en/products/eclipse-sirius.
+
+\bibitem{KellyTolvanen09}
+Juha K{\"a}rn{\"a} Polar~Electro Professorintie, Juha. Karna, and Steven
+  Kelly~MetaCase Ylist{\"o}nm{\"a}entie.
+\newblock Evaluating the use of domain-specific modeling in practice.
+\newblock 2009.
+
+\bibitem{Spinellis01}
+Diomidis Spinellis.
+\newblock Notable design patterns for domain-specific languages.
+\newblock {\em Journal of Systems and Software}, 56(1):91--99, 2001.
+
+\bibitem{TolvanenKelly2016}
+J.~Tolvanen and S.~Kelly.
+\newblock Model-driven development challenges and solutions: Experiences with
+  domain-specific modelling in industry.
+\newblock In {\em 2016 4th International Conference on Model-Driven Engineering
+  and Software Development (MODELSWARD)}, pages 711--719, Feb 2016.
+
+\bibitem{Tolvanen016}
+Juha{-}Pekka Tolvanen and Steven Kelly.
+\newblock Model-driven development challenges and solutions - experiences with
+  domain-specific modelling in industry.
+\newblock In {\em {MODELSWARD} 2016 - Proceedings of the 4rd International
+  Conference on Model-Driven Engineering and Software Development, Rome, Italy,
+  19-21 February, 2016.}, pages 711--719, 2016.
+
+\bibitem{Voelter09}
+Markus V\"olter.
+\newblock Best practices for dsls and model- driven development.
+\newblock {\em Journal of Object Technologies}, 8(6), 2009.
+
+\bibitem{VolterB04}
+Markus V{\"{o}}lter and Jorn Bettin.
+\newblock Patterns for model-driven software-development.
+\newblock In {\em Proceedings of the 9th European Conference on Pattern
+  Languages of Programms (EuroPLoP '2004), Irsee, Germany, July 7-11, 2004.},
+  pages 525--560, 2004.
+
+\bibitem{Wile03}
+David~S. Wile.
+\newblock Lessons learned from real {DSL} experiments.
+\newblock In {\em 36th Hawaii International Conference on System Sciences
+  {(HICSS-36} 2003), {CD-ROM} / Abstracts Proceedings, January 6-9, 2003, Big
+  Island, HI, {USA}}, page 325, 2003.
+
+\end{thebibliography}
