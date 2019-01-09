@@ -13,6 +13,11 @@ Peter~J. Ashenden.
 \newblock {\em The designer's guide to VHDL, 2nd Edition}.
 \newblock The Morgan Kaufmann series in systems on silicon. Kaufmann, 2002.
 
+\bibitem{Barisic18}
+Ankica Barisic, Vasco Amaral, and Miguel Goul{\~{a}}o.
+\newblock Usability driven {DSL} development with {USE-ME}.
+\newblock {\em Computer Languages, Systems {\&} Structures}, 51:118--157, 2018.
+
 \bibitem{Barisic:12}
 Ankica Bari\v{s}i\'{c}, Pedro Monteiro, Vasco Amaral, Miguel Goul\~{a}o, and
   Miguel Monteiro.
@@ -20,10 +25,22 @@ Ankica Bari\v{s}i\'{c}, Pedro Monteiro, Vasco Amaral, Miguel Goul\~{a}o, and
 \newblock In {\em Proceedings of the 19th Conference on Pattern Languages of
   Programs}, PLoP '12, pages 14:1--14:34, USA, 2012. The Hillside Group.
 
+\bibitem{BarrocaLAFS10}
+Bruno Barroca, Levi Lucio, Vasco Amaral, Roberto F{\'{e}}lix, and Vasco Sousa.
+\newblock Dsltrans: {A} turing incomplete transformation language.
+\newblock In {\em Software Language Engineering - Third International
+  Conference, {SLE} 2010, Eindhoven, The Netherlands, October 12-13, 2010,
+  Revised Selected Papers}, pages 296--305, 2010.
+
 \bibitem{BernersLee96}
 Tim Berners{-}Lee, Roy~T. Fielding, and Henrik~Frystyk Nielsen.
 \newblock Hypertext transfer protocol - {HTTP/1.0}.
 \newblock {\em {RFC}}, 1945:1--60, 1996.
+
+\bibitem{Codd70}
+E.~F. Codd.
+\newblock A relational model of data for large shared data banks.
+\newblock {\em Commun. ACM}, 13(6):377--387, June 1970.
 
 \bibitem{emf}
 Eclipse Foundation.
@@ -35,6 +52,16 @@ Eclipse Foundation.
 \newblock {GMF: Graphic Modeling Framework}.
 \newblock https://www.eclipse.org/modeling/gmp/.
 
+\bibitem{Freire14}
+Mar{\'{\i}}lia~Aranha Freire, Uir{\'{a}} Kulesza, Eduardo Aranha, Andreas
+  Jedlitschka, Edmilson~Campos Neto, Silvia~Teresita Acu{\~{n}}a, and Marta
+  G{\'{o}}mez.
+\newblock An empirical study to evaluate a domain specific language for
+  formalizing software engineering experiments.
+\newblock In {\em The 26th International Conference on Software Engineering and
+  Knowledge Engineering, Hyatt Regency, Vancouver, BC, Canada, July 1-3,
+  2013.}, pages 250--255, 2014.
+
 \bibitem{Gabriel09}
 Pedro Gabriel, Miguel Goul{\~{a}}o, and Vasco Amaral.
 \newblock Do software languages engineers evaluate their languages?
@@ -44,6 +71,19 @@ Pedro Gabriel, Miguel Goul{\~{a}}o, and Vasco Amaral.
 Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 \newblock {\em Design Patterns: Elements of Reusable Object-oriented Software}.
 \newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1995.
+
+\bibitem{Gilat07}
+Amos Gilat.
+\newblock {\em MATLAB: An Introduction with Applications}.
+\newblock John Wiley \& Sons, Inc., New York, NY, USA, 2007.
+
+\bibitem{Haser16}
+Florian H\"{a}ser, Michael Felderer, and Ruth Breu.
+\newblock An integrated tool environment for experimentation in domain specific
+  language engineering.
+\newblock In {\em Proceedings of the 20th International Conference on
+  Evaluation and Assessment in Software Engineering}, EASE '16, pages
+  20:1--20:5, New York, NY, USA, 2016. ACM.
 
 \bibitem{Hermans09}
 Felienne Hermans, Martin Pinzger, and Arie van Deursen.
@@ -57,6 +97,16 @@ Felienne Hermans, Martin Pinzger, and Arie van Deursen.
 itemis AG and TypeFox.
 \newblock {Sirius}.
 \newblock https://www.eclipse.org/Xtext/.
+
+\bibitem{LaraGuerra13}
+Javier Luis~C{\'a}novas Izquierdo, Jordi Cabot, Jes{\'u}s~J.
+  L{\'o}pez-Fern{\'a}ndez, Jes{\'u}s~S{\'a}nchez Cuadrado, Esther Guerra, and
+  Juan de~Lara.
+\newblock Engaging end-users in the collaborative development of
+  domain-specific modelling languages.
+\newblock In Yuhua Luo, editor, {\em Cooperative Design, Visualization, and
+  Engineering}, pages 101--110, Berlin, Heidelberg, 2013. Springer Berlin
+  Heidelberg.
 
 \bibitem{mps}
 JetBrains.
@@ -72,6 +122,11 @@ Stephen~C. Johnson.
 G{\"o}khan Kahraman and Semih Bilgen.
 \newblock A framework for qualitative assessment of domain-specific languages.
 \newblock {\em Software {\&} Systems Modeling}, 14(4):1505--1526, Oct 2015.
+
+\bibitem{kanav18}
+Sudeep Kanav, Levi Lucio, Christian Hilden, and Thomas Sch\"utz.
+\newblock {Design and Runtime Verification Side-by-Side in eTrice}.
+\newblock Submitted to NFM 2019.
 
 \bibitem{Kelly2009}
 S.~Kelly and R.~Pohjonen.
@@ -94,6 +149,30 @@ Toma{\v{z}} Kosar, Marjan Mernik, and Jeffrey~C. Carver.
 \newblock Program comprehension of domain-specific and general-purpose
   languages: comparison using a family of experiments.
 \newblock {\em Empirical Software Engineering}, 17(3):276--304, Jun 2012.
+
+\bibitem{Lamport1989}
+Leslie Lamport.
+\newblock {\em Latex: A Document Preparation System}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1986.
+
+\bibitem{lucio08}
+Levi Lucio.
+\newblock {\em SATEL — A test intention language for object-oriented
+  specifications of reactive systems}.
+\newblock PhD thesis, 05/28 2009.
+\newblock ID: unige:2498.
+
+\bibitem{LucioARAKH17}
+Levi L{\'{u}}cio, Saad bin Abid, Salman Rahman, Vincent Aravantinos, Ralf
+  Kuestner, and Eduard Harwardt.
+\newblock Process-aware model-driven development environments.
+\newblock In {\em Proceedings of {MODELS} 2017 Satellite Event: Workshops
+  (ModComp, ME, EXE, COMMitMDE, MRT, MULTI, GEMOC, MoDeVVa, MDETools, FlexMDE,
+  MDEbug), Posters, Doctoral Symposium, Educator Symposium, {ACM} Student
+  Research Competition, and Tools and Demonstrations co-located with {ACM/IEEE}
+  20th International Conference on Model Driven Engineering Languages and
+  Systems {(MODELS} 2017), Austin, TX, USA, September, 17, 2017.}, pages
+  405--411, 2017.
 
 \bibitem{Mernik17}
 Marjan Mernik.
@@ -118,6 +197,13 @@ Microsoft.
 \newblock {Microsoft DSL Tools}.
 \newblock https://tinyurl.com/yb934lvz.
 
+\bibitem{OakesTLW15}
+Bentley~James Oakes, Javier Troya, Levi Lucio, and Manuel Wimmer.
+\newblock Fully verifying transformation contracts for declarative {ATL}.
+\newblock In {\em 18th {ACM/IEEE} International Conference on Model Driven
+  Engineering Languages and Systems, MoDELS 2015, Ottawa, ON, Canada, September
+  30 - October 2, 2015}, pages 256--265, 2015.
+
 \bibitem{obeo}
 Obeo.
 \newblock {Obeo -- Sirius webpage}.
@@ -139,6 +225,17 @@ Diomidis Spinellis.
 \newblock Notable design patterns for domain-specific languages.
 \newblock {\em Journal of Systems and Software}, 56(1):91--99, 2001.
 
+\bibitem{Syriani19}
+Eugene Syriani, Vasco Sousa, and Levi L{\'{u}}cio.
+\newblock Structure and behavior preserving statecharts refinements.
+\newblock {\em Sci. Comput. Program.}, 170:45--79, 2019.
+
+\bibitem{ThanhoferPilisch17}
+J.~Thanhofer-Pilisch, A.~Lang, M.~Vierhauser, and R.~Rabiser.
+\newblock A systematic mapping study on dsl evolution.
+\newblock In {\em 2017 43rd Euromicro Conference on Software Engineering and
+  Advanced Applications (SEAA)}, pages 149--156, Aug 2017.
+
 \bibitem{TolvanenKelly2016}
 J.~Tolvanen and S.~Kelly.
 \newblock Model-driven development challenges and solutions: Experiences with
@@ -153,6 +250,13 @@ Juha{-}Pekka Tolvanen and Steven Kelly.
 \newblock In {\em {MODELSWARD} 2016 - Proceedings of the 4rd International
   Conference on Model-Driven Engineering and Software Development, Rome, Italy,
   19-21 February, 2016.}, pages 711--719, 2016.
+
+\bibitem{Tolvanen018}
+Juha{-}Pekka Tolvanen and Steven Kelly.
+\newblock Effort used to create domain-specific modeling languages.
+\newblock In {\em Proceedings of the 21th {ACM/IEEE} International Conference
+  on Model Driven Engineering Languages and Systems, {MODELS} 2018, Copenhagen,
+  Denmark, October 14-19, 2018}, pages 235--244, 2018.
 
 \bibitem{Voelter09}
 Markus V\"olter.

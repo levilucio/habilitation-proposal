@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.4)  8 JAN 2019 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.4)  9 JAN 2019 16:00
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -7,24 +7,100 @@ entering extended mode
 (./habilitation_proposal.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2016/05/10 v3.20 KOMA-Script document class (article)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2016/05/10 v3.20 KOMA-Script package (loading files)
+
+Package scrlfile, 2016/05/10 v3.20 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2016/05/10 v3.20 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 130.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 131.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 132.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 205
+1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (11pt
+)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2016/05/10 v3.20 KOMA-Script package (type area)
+
+Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip42
+\ta@div=\count79
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1528.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@section@maxnumwidth=\skip48
+\scr@dte@subsection@maxnumwidth=\skip49
+\scr@dte@subsubsection@maxnumwidth=\skip50
+\scr@dte@paragraph@maxnumwidth=\skip51
+\scr@dte@subparagraph@maxnumwidth=\skip52
+LaTeX Info: Redefining \textsubscript on input line 4025.
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@pti@nb@sid@b@x=\box27
+\c@figure=\count86
+\c@table=\count87
+Class scrartcl Info: Redefining `\numberline' on input line 5012.
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -71,10 +147,6 @@ Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -85,13 +157,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen103
-\Hy@linkcounter=\count87
-\Hy@pagecounter=\count88
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count89
+\Hy@SavedSpaceFactor=\count90
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -104,7 +176,7 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count90
+\c@Hy@tempcnt=\count91
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -112,7 +184,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
 \XeTeXLinkMargin=\dimen104
-\Fld@menulength=\count91
+\Fld@menulength=\count92
 \Field@Width=\dimen105
 \Fld@charsize=\dimen106
 Package hyperref Info: Hyper figures OFF on input line 6298.
@@ -124,30 +196,30 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count92
-\c@Item=\count93
-\c@Hfootnote=\count94
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count95
-\c@bookmark@seq@number=\count96
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip55
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count97
-\c@@ppsavesec=\count98
-\c@@ppsaveapp=\count99
+\c@@pps=\count98
+\c@@ppsavesec=\count99
+\c@@ppsaveapp=\count100
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -165,7 +237,7 @@ Package graphics Info: Driver file: pdftex.def on input line 96.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count100
+\Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
@@ -187,7 +259,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-\AtBeginShipoutBox=\box26
+\AtBeginShipoutBox=\box28
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
@@ -205,7 +277,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count101
+\c@section@level=\count102
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -218,16 +290,16 @@ LaTeX Info: Redefining \nameref on input line 9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count103
 \scratchdimen=\dimen109
-\scratchbox=\box27
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\scratchbox=\box29
+\nofMPsegments=\count104
+\nofMParguments=\count105
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count105
+\MPscratchCnt=\count106
 \MPscratchDim=\dimen110
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -245,144 +317,149 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <14.4> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <7> on input line 17.
 
 [1
 
+
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 173--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-[4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 248.
+(Font)              <10.95> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 248.
-
-
-LaTeX Warning: Citation `fig:DSL_design_phases' on page 5 undefined on input li
-ne 266.
-
-[5] <./figures/DSL_design_phases.png, id=170, 655.44875pt x 427.5975pt>
+(Font)              <8> on input line 155.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 155.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 156.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 156.
+ <./figures/DSL_design_phases.png, id=127, 655.44875pt x 427.5975pt>
 File: ./figures/DSL_design_phases.png Graphic file (type png)
 
 <use ./figures/DSL_design_phases.png>
-Package pdftex.def Info: ./figures/DSL_design_phases.png used on input line 270
+Package pdftex.def Info: ./figures/DSL_design_phases.png used on input line 177
 .
-(pdftex.def)             Requested size: 345.0pt x 225.06621pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 293.
+(pdftex.def)             Requested size: 418.25555pt x 272.85893pt.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 293.
- [6 <./figures/DSL_design_phases.png>] [7]
-Missing character: There is no √ in font cmr9!
-Missing character: There is no © in font cmr9!
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 417--420
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+ [5 <./figures/DSL_design_phases.png>]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
 
- []
-
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[][][][][]$\OT1/cmtt/m/n/8 http : / / www . nserc-[]crsng . gc . ca / Internati
-onal-[]Internationale / CanadaGermany _
+[6] [7] [8]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--389
+
  []
 
-(./habilitation_proposal.bbl
-Underfull \hbox (badness 4531) in paragraph at lines 4--6
-[][]\OT1/cmr/m/n/9 AToM3: A Tool for Multi-Formalism and Meta-Modelling.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+[9] [10] (./habilitation_proposal.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+[][]\OT1/cmr/m/n/10.95 AToM3: A Tool for Multi-Formalism and Meta-Modelling.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[][]\OT1/cmr/m/n/10.95 GME: Generic Mod-el-ing En-vi-ron-ment.
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-[][]\OT1/cmr/m/n/9 GME: Generic Mod-el-ing En-vi-ron-ment.
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+[][]\OT1/cmr/m/n/10.95 Eclipse Foun-da-tion.  Eclipse Mod-el-ing Frame-work.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-[][]\OT1/cmr/m/n/9 Eclipse Foun-da-tion.  Eclipse Mod-el-ing Frame-work.
- []
-
-
-Underfull \hbox (badness 5331) in paragraph at lines 34--37
-[][]\OT1/cmr/m/n/9 Eclipse Foun-da-tion.  GMF: Graphic Mod-el-ing Frame-work.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-[][]\OT1/cmr/m/n/9 JetBrains.  Meta Pro-gram-ming Sys-tem.
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+[][]\OT1/cmr/m/n/10.95 Eclipse Foun-da-tion.  GMF: Graphic Mod-el-ing Frame-wor
+k.
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
-[][]\OT1/cmr/m/n/9 Obeo.  Obeo -- Sir-ius web-page.
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+[][]\OT1/cmr/m/n/10.95 JetBrains.  Meta Pro-gram-ming Sys-tem.
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no î in font cmti10!
+
+Underfull \hbox (badness 1052) in paragraph at lines 166--176
+\OT1/cmr/m/it/10.95 Work-shops (Mod-Comp, ME, EXE, COM-Mit-MDE, MRT, MULTI,
+ []
+
+[13]
+Overfull \hbox (43.85927pt too wide) in paragraph at lines 208--211
+[][]\OT1/cmr/m/n/10.95 Obeo.  Obeo -- Sir-ius web-page.  https://www.obeodesign
+er.com/en/product/sirius. 
+ []
+
+[14])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
  (./habilitation_proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
 Package rerunfilecheck Info: File `habilitation_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 9DF42D13BD03A6DD10E12AB16067DCDF;1060.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
+(rerunfilecheck)             Checksum: 99FCA2437AF2FEE555ADA4FBE50AF3CB;622.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 480.
  ) 
 Here is how much of TeX's memory you used:
- 5348 strings out of 493014
- 79684 string characters out of 6133351
- 164669 words of memory out of 5000000
- 8795 multiletter control sequences out of 15000+600000
- 9320 words of font info for 33 fonts, out of 8000000 for 9000
+ 7224 strings out of 493014
+ 117169 string characters out of 6133351
+ 286107 words of memory out of 5000000
+ 10646 multiletter control sequences out of 15000+600000
+ 10339 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,28p,210b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on habilitation_proposal.pdf (13 pages, 356350 bytes).
+ 41i,8n,51p,8500b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on habilitation_proposal.pdf (15 pages, 340893 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
