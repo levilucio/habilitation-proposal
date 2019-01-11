@@ -5,12 +5,14 @@
 \usepackage[ colorlinks=true, urlcolor=blue, linkcolor=green ]{hyperref}
 \usepackage[title]{appendix}
 
+\usepackage{graphicx}
+
 \begin{document}
 
 \title{Group Proposal}
 
 \author{Dr. Levi L\'ucio}
-
+ 
 \maketitle
 
 \abstract{We propose the creation of new nachwuchs-Kompetezfeld at fortiss in
@@ -20,12 +22,12 @@ the area of Domain Specific Languages (DSLs).}
 
 Intelligent Domain-Specific Systems (IDS2)
 
-\section{Mission}
+\section{Mission} 
 
 \textbf{Increasingly build better DSLs to tackle industrial problems by:
 1) applying them to implement and support technology transfer projects at
 fortiss, and 2) evaluating their practical impact.}
-
+ 
 \section{Need}
 
 Computer languages are pervasive in software and systems engineering, to the
@@ -126,30 +128,30 @@ business for fortiss.
 % for the industrial adoption of DSLs and have gathered a niche market in the
 % domain.
 
-During the past few years, DSLs have attracted considerable interest from the
-industry. The paradigm speaks directly to engineers who wish to build their
-systems ground-up and making as much use as possible of domain knowledge that is
-typically hard-earned. In this context, clients often regard DSLs as key-in-hand
-solutions. They encompass simplified means to express domain-specific
-computations while abstracting from accidental complexity linked to the software or the hardware
-running underneath.
-
-Companies such as itemis, PROTOS or MetaCase have successfully developed
-business models around DSLs. They leverage their knowledge of modelling and DSL workbenches to
-deliver to customers key-in-hand software solutions. Such solutions have been
-developed for disparate domains such as the automotive, avionics, power tools or
-health, biology, among many others, and help either software developers or final
-users in achieving their tasks.
-
-Despite these successes, the potential and real impact of DSLs in industry is
-still ill understood. A recent compelling report from Tolvanen and
-Kelly~\cite{Tolvanen016} states that while their company specialized in
-DSLs, MetaCase, can affirm with certainty that the gains in productivity of
-their clients range from 500\% to 1000\%. In the same article, they claim
-academic research in the domain thus not been able to validate this in general.
-They speculate this is due on the one hand to the quality of their tool
-MetaEdit+ and their industrial experience, and on the other hand to the poor
-quality of the academic tools for supporting DSL construction.
+% During the past few years, DSLs have attracted considerable interest from the
+% industry. The paradigm speaks directly to engineers who wish to build their
+% systems ground-up and making as much use as possible of domain knowledge that is
+% typically hard-earned. In this context, clients often regard DSLs as key-in-hand
+% solutions. They encompass simplified means to express domain-specific
+% computations while abstracting from accidental complexity linked to the software or the hardware
+% running underneath.
+% 
+% Companies such as itemis, PROTOS or MetaCase have successfully developed
+% business models around DSLs. They leverage their knowledge of modelling and DSL workbenches to
+% deliver to customers key-in-hand software solutions. Such solutions have been
+% developed for disparate domains such as the automotive, avionics, power tools or
+% health, biology, among many others, and help either software developers or final
+% users in achieving their tasks.
+ 
+% Despite these successes, the potential and real impact of DSLs in industry is
+% still ill understood. A recent compelling report from Tolvanen and
+% Kelly~\cite{Tolvanen016} states that while their company specialized in
+% DSLs, MetaCase, can affirm with certainty that the gains in productivity of
+% their clients range from 500\% to 1000\%. In the same article, they claim
+% academic research in the domain thus not been able to validate this in general.
+% They speculate this is due on the one hand to the quality of their tool
+% MetaEdit+ and their industrial experience, and on the other hand to the poor
+% quality of the academic tools for supporting DSL construction.
 
 Anecdotally, at the PAINS workshop at MODELS 2018, an interesting discussion
 raged between a high-profile DSL proponent and a top-level BMW manager. While
@@ -161,6 +163,43 @@ was particularly thought-provoking was: ``how do I build and abstraction and
 know that it is a good one?''. A more general criticism to the DSL approach in
 general was: ``quality standards are missing, how do I to judge or trust your
 processes of building DSLs while making decisions that will benefit my company?''.
+
+\paragraph{Summary}
+From the condensed state of the art in the !!! ATTACHED DOCUMENT !!! , we can
+identify the following tends:
+
+\begin{itemize}
+  \item For almost two decades professional DSL workbench builders have
+  consistently reported case studies of application of DSLs to industrial
+  problems, some of those case studies being highly successful.
+  The same DSL builders do nonetheless mention that obtaining the data for
+  validating the DSL after shipment is difficult~\cite{Tolvanen018}.
+  \item During that same period academia as struggled to provide evidence that
+  the promises of DSLs in terms of increased productivity hold. Only recently,
+  partly due to the arrival of mature DSL workbenches produced by professional
+  software, is actual quantification of properties of DSLs such as e.g.
+  usability becoming possible. Experimental validation of DSLs based on
+  established theory is still under-explored~\cite{Mernik17}.
+  \item The DSL workbenches developed by academia are, thus far, insufficient to
+  scientifically validate the premises of the DSL-based software development.
+  This is on the one hand due to the poor quality of the tooling
+  produced by academia~\cite{TolvanenKelly2016}, and on the other hand to very
+  low access to real industrial use cases. Most of the surveys we describe above use as study
+  material other academic papers, leading to starvation of information on real
+  DSL commercial usage.
+  \item With the notable exceptions of the work of Tolvanen and Kelly and
+  Völter mentioned above in this section, the bridges between the academia and
+  industry in the DSL domain are brittle. 
+\end{itemize}
+
+\begin{figure}[!h]
+\centering 
+\includegraphics[width=1\textwidth]{./figures/DSL_design_phases}
+\caption{Distribution of 810 scientific contributions according to the phases
+of DSL construction they cover (extracted from~\cite{Mernik17})}
+\label{fig:DSL_design_phases}
+\end{figure}
+!!! MAKE REF TO PIC !!!
 
 IDS2 will be in a privileged position to find answers to the questions
 above. The proposed main members of the group have considerable experience with

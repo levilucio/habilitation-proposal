@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.4)  9 JAN 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.4)  11 JAN 2019 16:59
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -325,7 +325,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3]
+[2]
+Overfull \hbox (6.69629pt too wide) in paragraph at lines 103--108
+\OT1/cmr/m/n/10.95 spawned a large amount of in-ter-est in DSLs by both the in-
+dus-try and academia. 
+ []
+
+[3]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -336,11 +342,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 156.
- <./figures/DSL_design_phases.png, id=127, 655.44875pt x 427.5975pt>
+ <./figures/DSL_design_phases.png, id=123, 655.44875pt x 427.5975pt>
 File: ./figures/DSL_design_phases.png Graphic file (type png)
 
 <use ./figures/DSL_design_phases.png>
-Package pdftex.def Info: ./figures/DSL_design_phases.png used on input line 177
+Package pdftex.def Info: ./figures/DSL_design_phases.png used on input line 180
 .
 (pdftex.def)             Requested size: 418.25555pt x 272.85893pt.
 
@@ -348,105 +354,99 @@ Package pdftex.def Info: ./figures/DSL_design_phases.png used on input line 177
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 214.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 214.
  [5 <./figures/DSL_design_phases.png>]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ∂ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 [6] [7] [8]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--389
-
- []
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no Å in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
-
- []
-
-[9] [10] (./habilitation_proposal.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[][]\OT1/cmr/m/n/10.95 AToM3: A Tool for Multi-Formalism and Meta-Modelling.
+ [9] (./habilitation_proposal.bbl
+Underfull \hbox (badness 3623) in paragraph at lines 4--6
+[][]\OT1/cmr/m/n/10.95 1st Work-shop on Pains in Model-Driven En-gi-neer-ing Pr
+ac-tice.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[][]\OT1/cmr/m/n/10.95 AToM3: A Tool for Multi-Formalism and Meta-Modelling.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 [][]\OT1/cmr/m/n/10.95 GME: Generic Mod-el-ing En-vi-ron-ment.
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 [][]\OT1/cmr/m/n/10.95 Eclipse Foun-da-tion.  Eclipse Mod-el-ing Frame-work.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 [][]\OT1/cmr/m/n/10.95 Eclipse Foun-da-tion.  GMF: Graphic Mod-el-ing Frame-wor
 k.
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+[10]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 [][]\OT1/cmr/m/n/10.95 JetBrains.  Meta Pro-gram-ming Sys-tem.
  []
 
+[11]
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no î in font cmti10!
 
-Underfull \hbox (badness 1052) in paragraph at lines 166--176
+Underfull \hbox (badness 1052) in paragraph at lines 194--204
 \OT1/cmr/m/it/10.95 Work-shops (Mod-Comp, ME, EXE, COM-Mit-MDE, MRT, MULTI,
  []
 
-[13]
-Overfull \hbox (43.85927pt too wide) in paragraph at lines 208--211
+[12]
+Overfull \hbox (43.85927pt too wide) in paragraph at lines 251--254
 [][]\OT1/cmr/m/n/10.95 Obeo.  Obeo -- Sir-ius web-page.  https://www.obeodesign
 er.com/en/product/sirius. 
  []
 
-[14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
+[13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
  (./habilitation_proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `habilitation_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 99FCA2437AF2FEE555ADA4FBE50AF3CB;622.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 480.
+(rerunfilecheck)             Checksum: 76A878ACAF779BACEC4364EA3B3729A6;433.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
  ) 
 Here is how much of TeX's memory you used:
- 7224 strings out of 493014
- 117169 string characters out of 6133351
- 286107 words of memory out of 5000000
- 10646 multiletter control sequences out of 15000+600000
+ 7229 strings out of 493014
+ 117181 string characters out of 6133351
+ 287237 words of memory out of 5000000
+ 10648 multiletter control sequences out of 15000+600000
  10339 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,51p,8500b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,51p,8500b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -456,10 +456,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on habilitation_proposal.pdf (15 pages, 340893 bytes).
+Output written on habilitation_proposal.pdf (14 pages, 339864 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 303 PDF objects out of 1000 (max. 8388607)
  272 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

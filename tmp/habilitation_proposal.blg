@@ -4,7 +4,7 @@ The top-level auxiliary file: habilitation_proposal.aux
 The style file: plain.bst
 Database file #1: group_proposal.bib
 Warning--entry type for "kanav18" isn't style-file defined
---line 596 of file group_proposal.bib
+--line 614 of file group_proposal.bib
 A bad cross reference---entry "Tolvanen016"
 refers to entry "DBLP:conf/modelsward/2016", which doesn't exist
 A bad cross reference---entry "VolterB04"
@@ -21,6 +21,8 @@ A bad cross reference---entry "OakesTLW15"
 refers to entry "DBLP:conf/models/2015", which doesn't exist
 A bad cross reference---entry "LucioARAKH17"
 refers to entry "DBLP:conf/models/2017s", which doesn't exist
+A bad cross reference---entry "Lucio18"
+refers to entry "DBLP:conf/models/2018w", which doesn't exist
 Warning--I didn't find a database entry for "DBLP:conf/modelsward/2016"
 Warning--I didn't find a database entry for "DBLP:conf/europlop/2004"
 Warning--I didn't find a database entry for "DBLP:conf/hicss/2003"
@@ -29,50 +31,52 @@ Warning--I didn't find a database entry for "DBLP:conf/models/2018"
 Warning--I didn't find a database entry for "DBLP:conf/models/2017s"
 Warning--I didn't find a database entry for "DBLP:conf/models/2015"
 Warning--I didn't find a database entry for "DBLP:conf/sle/2010"
+Warning--I didn't find a database entry for "DBLP:conf/models/2018w"
+Warning--to sort, need author or key in pains18
 Warning--to sort, need author or key in gme
 Warning--to sort, need author or key in atom3
 Warning--empty booktitle in Kolovos06
 Warning--empty school in lucio08
 Warning--empty booktitle in KellyTolvanen09
-You've used 46 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            806 strings with 13084 characters,
-and the built_in function-call counts, 15953 in all, are:
-= -- 1575
-> -- 688
-< -- 16
-+ -- 277
-- -- 225
-* -- 981
-:= -- 2504
-add.period$ -- 143
-call.type$ -- 46
-change.case$ -- 241
+            842 strings with 14271 characters,
+and the built_in function-call counts, 17843 in all, are:
+= -- 1753
+> -- 769
+< -- 17
++ -- 310
+- -- 251
+* -- 1075
+:= -- 2806
+add.period$ -- 164
+call.type$ -- 53
+change.case$ -- 275
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 658
-empty$ -- 1334
-format.name$ -- 225
-if$ -- 3481
+cite$ -- 59
+duplicate$ -- 738
+empty$ -- 1509
+format.name$ -- 251
+if$ -- 3895
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 38
-newline$ -- 231
-num.names$ -- 94
-pop$ -- 328
+int.to.str$ -- 53
+missing$ -- 43
+newline$ -- 266
+num.names$ -- 106
+pop$ -- 382
 preamble$ -- 1
-purify$ -- 200
+purify$ -- 227
 quote$ -- 0
-skip$ -- 535
+skip$ -- 600
 stack$ -- 0
-substring$ -- 944
-swap$ -- 200
-text.length$ -- 16
+substring$ -- 1011
+swap$ -- 218
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
-warning$ -- 5
-while$ -- 154
-width$ -- 48
-write$ -- 492
-(There were 8 error messages)
+type$ -- 202
+warning$ -- 6
+while$ -- 169
+width$ -- 55
+write$ -- 562
+(There were 9 error messages)

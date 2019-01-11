@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{pains18}
+{1st Workshop on Pains in Model-Driven Engineering Practice}.
+\newblock https://sites.google.com/view/pains-2018.
+
 \bibitem{atom3}
 {AToM3: A Tool for Multi-Formalism and Meta-Modelling}.
 \newblock http://atom3.cs.mcgill.ca/.
@@ -7,6 +11,12 @@
 \bibitem{gme}
 {GME: Generic Modeling Environment}.
 \newblock http://w3.isis.vanderbilt.edu/projects/gme/.
+
+\bibitem{Amrani18}
+Moussa Amrani, Levi L{\'{u}}cio, and Adrien Bibal.
+\newblock {ML} + {FV} = {Love}? {A} survey on the application of machine
+  learning to formal verification.
+\newblock {\em CoRR}, abs/1806.03600, 2018.
 
 \bibitem{Ashenden02}
 Peter~J. Ashenden.
@@ -42,6 +52,11 @@ E.~F. Codd.
 \newblock A relational model of data for large shared data banks.
 \newblock {\em Commun. ACM}, 13(6):377--387, June 1970.
 
+\bibitem{af3}
+{fortiss GmbH}.
+\newblock {AutoFOCUS3}.
+\newblock https://af3.fortiss.org/.
+
 \bibitem{emf}
 Eclipse Foundation.
 \newblock {Eclipse Modeling Framework}.
@@ -51,6 +66,11 @@ Eclipse Foundation.
 Eclipse Foundation.
 \newblock {GMF: Graphic Modeling Framework}.
 \newblock https://www.eclipse.org/modeling/gmp/.
+
+\bibitem{Fowler10}
+Martin Fowler.
+\newblock {\em Domain Specific Languages}.
+\newblock Addison-Wesley Professional, 1st edition, 2010.
 
 \bibitem{Freire14}
 Mar{\'{\i}}lia~Aranha Freire, Uir{\'{a}} Kulesza, Eduardo Aranha, Andreas
@@ -92,6 +112,14 @@ Felienne Hermans, Martin Pinzger, and Arie van Deursen.
 \newblock In Andy Sch{\"u}rr and Bran Selic, editors, {\em Model Driven
   Engineering Languages and Systems}, pages 423--437, Berlin, Heidelberg, 2009.
   Springer Berlin Heidelberg.
+
+\bibitem{Iqbal18}
+Tahira Iqbal, Parisa Elahidoost, and Levi Lucio.
+\newblock {A Bird’s Eye View on Requirements Engineering and Machine
+  learning}.
+\newblock In {\em Proceedings of the Asia-Pacific Software Engineering
+  Conference}, 2018.
+\newblock to appear.
 
 \bibitem{xtext}
 itemis AG and TypeFox.
@@ -174,6 +202,16 @@ Levi L{\'{u}}cio, Saad bin Abid, Salman Rahman, Vincent Aravantinos, Ralf
   Systems {(MODELS} 2017), Austin, TX, USA, September, 17, 2017.}, pages
   405--411, 2017.
 
+\bibitem{Lucio18}
+Levi Lucio, Sudeep Kanav, Andreas Bayha, and Johannes Eder.
+\newblock Controlling a virtual rover using autofocus3.
+\newblock In {\em Proceedings of {MODELS} 2018 Workshops: ModComp, MRT, OCL,
+  FlexMDE, EXE, COMMitMDE, MDETools, GEMOC, MORSE, MDE4IoT, MDEbug, MoDeVVa,
+  ME, MULTI, HuFaMo, AMMoRe, {PAINS} co-located with {ACM/IEEE} 21st
+  International Conference on Model Driven Engineering Languages and Systems
+  {(MODELS} 2018), Copenhagen, Denmark, October, 14, 2018.}, pages 356--365,
+  2018.
+
 \bibitem{Mernik17}
 Marjan Mernik.
 \newblock Domain-specific languages: A systematic mapping study.
@@ -186,6 +224,11 @@ Marjan Mernik.
 Marjan Mernik, Jan Heering, and Anthony~M. Sloane.
 \newblock When and how to develop domain-specific languages.
 \newblock {\em {ACM} Comput. Surv.}, 37(4):316--344, 2005.
+
+\bibitem{metaedit}
+{MetaCase}.
+\newblock {MetaEdit+}.
+\newblock http://www.metacase.com/mwb/.
 
 \bibitem{metacase00}
 MetaCase.
